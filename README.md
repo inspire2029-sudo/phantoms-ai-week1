@@ -1,56 +1,39 @@
-# PHANTOMS AI — Week 1 Day 1
+# PHANTOMS AI — Week 1
 
-## Project Description
+## Python Foundations
 
-This project is a simple Python division program created as part of the PHANTOMS AI Week 1 Day 1 task.
+This repository contains my Week 1 Python practice for PHANTOMS AI, starting with functions, clean code, and runtime error handling.
 
-The task focuses on writing clean and readable code, applying the DRY principle using functions, and handling runtime errors with try-except.
+## What I built
 
-## What the Program Does
+A simple division program that:
 
-* Takes two numbers from the user
-* Divides the first number by the second number
-* Uses a custom function for the division operation
-* Handles invalid non-numeric input using ValueError
-* Handles division by zero using ZeroDivisionError
-* Displays clear error messages instead of stopping the program unexpectedly
+- Takes two numbers from the user
+- Uses a custom function for the division operation
+- Applies the DRY principle
+- Handles invalid non-numeric input with `ValueError`
+- Handles division by zero with `ZeroDivisionError`
+- Displays clear error messages instead of stopping unexpectedly
 
 ## Concepts Applied
 
-* Python Functions
-* DRY Principle
-* try-except
-* ValueError
-* ZeroDivisionError
-* Basic Input and Output
+- Python Functions
+- DRY Principle
+- try-except
+- ValueError
+- ZeroDivisionError
+- Basic Input and Output
 
-## How to Run
+## Notebook
 
-1. Open the notebook in Google Colab.
-2. Run the code cell.
-3. Enter the first number when requested.
-4. Enter the second number.
-5. The program will display the division result.
+`W1D1_Functions_TryExcept.ipynb`
 
-## Examples
+The notebook contains the implementation and examples for the Week 1 Day 1 task.
 
-Normal case:
+## Learning Direction
 
-```text
-Enter the first number: 10
-Enter the second number: 2
-Result: 5.0
-```
+This repository represents the beginning of a progression from Python and software foundations toward backend engineering, machine learning, cybersecurity, AI Security, and eventually LLM Red Teaming.
 
-Invalid input:
+## Author
 
-```text
-Error: Please enter numbers only.
-```
-
-Division by zero:
-
-```text
-Error: Cannot divide by zero.
-```
-
+**Aya — inspire2029-sudo**
