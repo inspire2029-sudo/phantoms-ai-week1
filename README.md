@@ -2,27 +2,28 @@
 
 ## Python Foundations
 
-This repository contains my Week 1 Python practice for PHANTOMS AI, starting with functions, clean code, and runtime error handling.
+The starting point of my PHANTOMS AI engineering work, focused on functions, clean code, input validation, and runtime error handling.
 
 ## What I built
 
-A simple division program that:
+A small command-line division program that:
 
-- Takes two numbers from the user
-- Uses a custom function for the division operation
+- Accepts two numeric inputs
+- Uses a dedicated function for the division operation
 - Applies the DRY principle
-- Handles invalid non-numeric input with `ValueError`
+- Handles invalid numeric input with `ValueError`
 - Handles division by zero with `ZeroDivisionError`
-- Displays clear error messages instead of stopping unexpectedly
+- Returns clear error messages instead of terminating unexpectedly
 
-## Concepts Applied
+## Concepts applied
 
-- Python Functions
-- DRY Principle
-- try-except
-- ValueError
-- ZeroDivisionError
-- Basic Input and Output
+- Python functions
+- DRY principle
+- `try-except`
+- `ValueError`
+- `ZeroDivisionError`
+- Basic input and output
+- Defensive input handling
 
 ## Notebook
 
@@ -30,10 +31,12 @@ A simple division program that:
 
 The notebook contains the implementation and examples for the Week 1 Day 1 task.
 
-## Learning Direction
+## Learning progression
 
-This repository represents the beginning of a progression from Python and software foundations toward backend engineering, machine learning, cybersecurity, AI Security, and eventually LLM Red Teaming.
+`Python → Backend → Machine Learning → Cybersecurity → AI Security → LLM Red Teaming`
 
-## Author
+This repository represents the software foundation of that progression.
 
-**Aya — inspire2029-sudo**
+> Build it. Break it. Understand it. Document it.
+
+**Author:** Aya — inspire2029-sudo
